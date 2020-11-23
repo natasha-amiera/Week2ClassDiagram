@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T07:03:41.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MgXocVt35wIQvUVk7Zt5" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T07:06:56.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="C_5Qtgt-rPet4W3p2O5B" version="13.10.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1374" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="1g1IX9eHBUrGyDfdvT0G-0" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="370" width="280" height="114" as="geometry" />
+          <mxGeometry x="100" y="370" width="280" height="114" as="geometry" />
         </mxCell>
         <mxCell id="1g1IX9eHBUrGyDfdvT0G-1" value="- empname: String&#xa;- empid: String&#xa;- hiredate: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1g1IX9eHBUrGyDfdvT0G-0">
           <mxGeometry y="26" width="280" height="54" as="geometry" />
@@ -51,6 +51,24 @@
         </mxCell>
         <mxCell id="1g1IX9eHBUrGyDfdvT0G-15" value="+ ProductionWorker(shift: int, payphour: double)&#xa;+ chooseShift(hr: int, d: String): int&#xa;+ Work: void&#xa;+ TotalSalary(x: int): double)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1g1IX9eHBUrGyDfdvT0G-12">
           <mxGeometry y="78" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="1g1IX9eHBUrGyDfdvT0G-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.4;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g1IX9eHBUrGyDfdvT0G-7" target="1g1IX9eHBUrGyDfdvT0G-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1g1IX9eHBUrGyDfdvT0G-17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.468;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g1IX9eHBUrGyDfdvT0G-15" target="1g1IX9eHBUrGyDfdvT0G-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1g1IX9eHBUrGyDfdvT0G-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=1.006;exitY=1.093;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g1IX9eHBUrGyDfdvT0G-9" target="1g1IX9eHBUrGyDfdvT0G-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="40" y="310" as="sourcePoint" />
+            <mxPoint x="200" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
